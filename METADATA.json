@@ -99,27 +99,27 @@
   "authors": [
     {
       "name": "Yong Shi",
-      "affiliation": "Not reported",
+      "affiliation": "School of Economics and Management, University of Nebraska Omaha",
       "role": "Dataset Creator"
     },
     {
       "name": "Limeng Cui",
-      "affiliation": "Not reported",
+      "affiliation": "School of Computer and Control Engineering, University of Chinese Academy of Sciences",
       "role": "Dataset Creator"
     },
     {
       "name": "Zhiquan Qi",
-      "affiliation": "Not reported",
+      "affiliation": "Research Center on Fictitious Economy and Data Science, Chinese Academy of Sciences",
       "role": "Dataset Creator"
     },
     {
       "name": "Fan Meng",
-      "affiliation": "Not reported",
+      "affiliation": "School of Economics and Management, University of Chinese Academy of Sciences",
       "role": "Dataset Creator"
     },
     {
       "name": "Zhensong Chen",
-      "affiliation": "Not reported",
+      "affiliation": "School of Economics and Management, University of Chinese Academy of Sciences",
       "role": "Dataset Creator"
     }
   ],
@@ -144,7 +144,7 @@
   ],
   "source_publication": {
     "dataset_doi": "Not provided",
-    "article_doi": "Not provided",
+    "article_doi": "10.1109/TITS.2016.2552248",
     "article_title": "Automatic road crack detection using random structured forests",
     "journal": "IEEE Transactions on Intelligent Transportation Systems",
     "year": 2016

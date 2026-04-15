@@ -99,27 +99,27 @@
   "authors": [
     {
       "name": "Yong Shi",
-      "affiliation": "School of Economics and Management, University of Nebraska Omaha",
+      "affiliation": "University of Nebraska Omaha",
       "role": "Dataset Creator"
     },
     {
       "name": "Limeng Cui",
-      "affiliation": "School of Computer and Control Engineering, University of Chinese Academy of Sciences",
+      "affiliation": "University of Chinese Academy of Sciences",
       "role": "Dataset Creator"
     },
     {
       "name": "Zhiquan Qi",
-      "affiliation": "Research Center on Fictitious Economy and Data Science, Chinese Academy of Sciences",
+      "affiliation": "Chinese Academy of Sciences",
       "role": "Dataset Creator"
     },
     {
       "name": "Fan Meng",
-      "affiliation": "School of Economics and Management, University of Chinese Academy of Sciences",
+      "affiliation": "University of Chinese Academy of Sciences",
       "role": "Dataset Creator"
     },
     {
       "name": "Zhensong Chen",
-      "affiliation": "School of Economics and Management, University of Chinese Academy of Sciences",
+      "affiliation": "University of Chinese Academy of Sciences",
       "role": "Dataset Creator"
     }
   ],

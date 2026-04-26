@@ -20,6 +20,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_01_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     },
     {
@@ -42,6 +46,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_02_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     },
     {
@@ -51,7 +59,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 4,
+      "objects": 2,
       "image_size": {
         "width": 480,
         "height": 320
@@ -64,33 +72,15 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_03_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     },
     {
       "file": "sample_04_c1_crack.jpg",
       "source": "D:/PhD/Datasets/segmentation/CFD/images\\106.jpg",
-      "classes": [
-        "crack"
-      ],
-      "num_classes": 1,
-      "objects": 5,
-      "image_size": {
-        "width": 480,
-        "height": 320
-      },
-      "resized_from": {
-        "width": 480,
-        "height": 320
-      },
-      "annotation_mode": "mask",
-      "annotation_format": "polygon",
-      "annotated_file": null,
-      "annotation_file": "annotations/sample_04_c1_crack_annotation.polygons.json",
-      "slider_ready": true
-    },
-    {
-      "file": "sample_05_c1_crack.jpg",
-      "source": "D:/PhD/Datasets/segmentation/CFD/images\\046.jpg",
       "classes": [
         "crack"
       ],
@@ -107,7 +97,37 @@
       "annotation_mode": "mask",
       "annotation_format": "polygon",
       "annotated_file": null,
+      "annotation_file": "annotations/sample_04_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
+      "slider_ready": true
+    },
+    {
+      "file": "sample_05_c1_crack.jpg",
+      "source": "D:/PhD/Datasets/segmentation/CFD/images\\046.jpg",
+      "classes": [
+        "crack"
+      ],
+      "num_classes": 1,
+      "objects": 3,
+      "image_size": {
+        "width": 480,
+        "height": 320
+      },
+      "resized_from": {
+        "width": 480,
+        "height": 320
+      },
+      "annotation_mode": "mask",
+      "annotation_format": "polygon",
+      "annotated_file": null,
       "annotation_file": "annotations/sample_05_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     },
     {
@@ -117,7 +137,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 6,
+      "objects": 4,
       "image_size": {
         "width": 480,
         "height": 320
@@ -130,6 +150,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_06_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     },
     {
@@ -152,6 +176,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_07_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     },
     {
@@ -174,6 +202,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_08_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     },
     {
@@ -183,7 +215,7 @@
         "crack"
       ],
       "num_classes": 1,
-      "objects": 4,
+      "objects": 1,
       "image_size": {
         "width": 480,
         "height": 320
@@ -196,6 +228,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_09_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     },
     {
@@ -218,6 +254,10 @@
       "annotation_format": "polygon",
       "annotated_file": null,
       "annotation_file": "annotations/sample_10_c1_crack_annotation.polygons.json",
+      "class_map": {
+        "1": "crack",
+        "255": "crack"
+      },
       "slider_ready": true
     }
   ],

@@ -7,7 +7,7 @@ CFD is a task-specific segmentation package derived from the CrackForest dataset
 - Task: segmentation
 - Images: 155
 - Images with annotations: 118
-- Annotations: 316
+- Annotations: 241
 - Classes: 1 (crack)
 - Annotation format: paired PNG masks
 

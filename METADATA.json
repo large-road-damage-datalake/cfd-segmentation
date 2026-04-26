@@ -19,9 +19,9 @@
       "primary_task": "segmentation",
       "task_subtype": "semantic_segmentation"
     },
+    "label_taxonomy_version": "road_damage_v2",
     "segmentation_type": "semantic_segmentation",
-    "task_subtype": "semantic_segmentation",
-    "label_taxonomy_version": "road_damage_v1"
+    "task_subtype": "semantic_segmentation"
   },
   "imaging_setup": {
     "camera": "Road-surface inspection camera",
@@ -41,6 +41,25 @@
         "resolution": "480x320",
         "count": 153
       }
+    ],
+    "resolution_by_country": [
+      {
+        "name": "China",
+        "resolutions": [
+          "320x480",
+          "480x320"
+        ],
+        "resolution_details": [
+          {
+            "resolution": "320x480",
+            "count": 2
+          },
+          {
+            "resolution": "480x320",
+            "count": 153
+          }
+        ]
+      }
     ]
   },
   "annotation_schema": [
@@ -54,27 +73,81 @@
           "description": "CFD class: crack",
           "color": "#294F71",
           "canonical_name": "crack",
-          "instances": 316
+          "instances": 241
         }
       ]
     }
   ],
+  "class_taxonomy": {
+    "version": "road_damage_v2",
+    "classes": [
+      {
+        "canonical_name": "crack",
+        "display_name": "Crack",
+        "damage_family": "crack",
+        "damage_subtype": "generic",
+        "role": "damage_target",
+        "semantic_role": "damage",
+        "training_role": "target",
+        "status": "stable",
+        "is_damage_target": true,
+        "aliases": [
+          "crack",
+          "cracked"
+        ],
+        "source_labels": [
+          "crack"
+        ],
+        "taxonomy_source": "registry",
+        "taxonomy_unresolved": false
+      },
+      {
+        "canonical_name": "unknown.example_class",
+        "display_name": "Example Class",
+        "damage_family": "unknown",
+        "damage_subtype": "",
+        "role": "unknown",
+        "semantic_role": "unknown",
+        "training_role": "ignore",
+        "status": "dataset_specific",
+        "is_damage_target": false,
+        "aliases": [
+          "example_class"
+        ],
+        "source_labels": [
+          "example_class"
+        ],
+        "taxonomy_source": "fallback_unknown",
+        "taxonomy_unresolved": true,
+        "mapping_type": "lossy",
+        "mapping_confidence": "low",
+        "mapping_note": "No deterministic alias or codebook mapping found",
+        "mapping_status": "draft"
+      }
+    ],
+    "damage_types": [
+      "crack"
+    ],
+    "unresolved_labels": [
+      "example_class"
+    ]
+  },
   "statistics": {
     "n_images": 155,
-    "n_annotations": 316,
+    "n_annotations": 241,
     "n_images_with_annotations": 118,
-    "average_annotations_per_image": 2.0387096774193547,
+    "average_annotations_per_image": 1.5548387096774194,
     "dataset_size": "4.48 MB",
     "dataset_size_bytes": 4701245,
     "dataset_file_count": 273,
     "image_format": "png_masks",
     "class_distribution": {
-      "crack": 316
+      "crack": 241
     },
     "split": {
       "data": {
         "n_images": 155,
-        "percentage": 1,
+        "percentage": 1.0,
         "n_images_with_annotations": 118,
         "annotation_coverage": 0.7613,
         "dataset_size": "4.48 MB",
@@ -151,36 +224,5 @@
     "article_title": "Automatic road crack detection using random structured forests",
     "journal": "IEEE Transactions on Intelligent Transportation Systems",
     "year": 2016
-  },
-  "class_taxonomy": {
-    "version": "road_damage_v2",
-    "classes": [
-      {
-        "canonical_name": "crack",
-        "display_name": "Crack",
-        "damage_family": "crack",
-        "damage_subtype": "generic",
-        "role": "damage_target",
-        "semantic_role": "damage",
-        "training_role": "target",
-        "status": "stable",
-        "is_damage_target": true,
-        "aliases": [
-          "crack",
-          "cracked"
-        ],
-        "source_labels": [
-          "crack"
-        ],
-        "taxonomy_source": "codebook",
-        "taxonomy_unresolved": false,
-        "mapping_type": "codebook-based",
-        "mapping_confidence": "high"
-      }
-    ],
-    "damage_types": [
-      "crack"
-    ],
-    "unresolved_labels": []
   }
 }

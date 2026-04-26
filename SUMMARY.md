@@ -5,7 +5,7 @@
 - Task: segmentation
 - Image count: 155
 - Annotated images: 118
-- Annotation count: 316
+- Annotation count: 241
 - Class setup: 1 (crack)
 
 Primary references:

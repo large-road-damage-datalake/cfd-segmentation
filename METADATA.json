@@ -99,38 +99,15 @@
           "crack"
         ],
         "taxonomy_source": "registry",
-        "taxonomy_unresolved": false
-      },
-      {
-        "canonical_name": "unknown.example_class",
-        "display_name": "Example Class",
-        "damage_family": "unknown",
-        "damage_subtype": "",
-        "role": "unknown",
-        "semantic_role": "unknown",
-        "training_role": "ignore",
-        "status": "dataset_specific",
-        "is_damage_target": false,
-        "aliases": [
-          "example_class"
-        ],
-        "source_labels": [
-          "example_class"
-        ],
-        "taxonomy_source": "fallback_unknown",
-        "taxonomy_unresolved": true,
-        "mapping_type": "lossy",
-        "mapping_confidence": "low",
-        "mapping_note": "No deterministic alias or codebook mapping found",
-        "mapping_status": "draft"
+        "taxonomy_unresolved": false,
+        "mapping_type": "codebook-based",
+        "mapping_confidence": "high"
       }
     ],
     "damage_types": [
       "crack"
     ],
-    "unresolved_labels": [
-      "example_class"
-    ]
+    "unresolved_labels": []
   },
   "statistics": {
     "n_images": 155,
